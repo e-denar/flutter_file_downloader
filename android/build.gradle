@@ -22,8 +22,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace = "com.odehbros.flutter_file_downloader"
     compileSdkVersion 34
+
+    namespace "com.odehbros.flutter_file_downloader"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
